@@ -1,5 +1,9 @@
 #!/bin/bash
 
+####Use: ./csv2root.sh argv1 argv2
+###argv1 is the full path + file name of the csv file you wish to convert
+###argv2 is the name you want to give the tree that will store the data
+
 INPUT_CSV=$1
 TREE_NAME=$2
 CSV_NAME=$1
